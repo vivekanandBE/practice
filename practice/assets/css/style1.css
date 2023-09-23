@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.common{
+    background: url(../images/star.jpg) no-repeat center;
+    background-size: 100%;
+    height: 100vh;
+}
+h3{
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    padding: 30px;
+    gap: 100px;
+    text-decoration: none;
+}
+header nav ul li{
+    text-decoration: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul a:hover {
+    background-color: grey;
+    color: aqua;
+    padding: 20px;
+}
+.title>div{
+    padding: 70px;
+    margin-top: 10px;
+    margin-left: 250px;
+    float: left;
+    line-height: 4;
+    border: 2px solid rgb(153, 0, 255);  
+    border-radius: 10px;  
+}
+.web{
+    position: relative;
+      
+}
+.web>li>a{
+    color: aquamarine;
+    text-decoration: none;
+}
+.web>li>a:hover{
+    color: rgb(3, 174, 60);
+}
+
+.web>span{
+    background: dimgray;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 8px #ccc;
+    position: absolute;
+    top: 5px;
+    left: 200px;
+    display: none;
+}
+.web:hover span{
+    display: block;
+}
+.web>span::before{
+    content: "";
+    border: 20px;
+    border-style: solid;
+    border-color: transparent rgb(173, 217, 244) transparent transparent;
+    position: absolute;
+    left: -39px;
+}
+.item{
+    justify-content: center;
+    align-items: center;
+    margin-left: 700px;
+    padding-top: 400px;
+    
+    
+}
+h1{
+    color: white;
+    font-size: 40px;
+}
+h1:hover{
+    color: greenyellow;
+}
+nav ul li ul{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    background: black;
+    margin-top: 10px;
+    display: none;
+}
+nav ul li ul li ul {
+    margin-left: 90px;
+    
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li{
+    width: auto;
+    padding: 10px 5px;
+    text-align: justify;
+    
+}
+nav ul li ul li a{
+    border-bottom: 1px solid white;
+    font-size: 10px;
+}
+.run::after{
+    content: "";
+    border: 10px;
+    border-style: solid;
+    border-color: transparent rgb(173, 217, 244) transparent transparent;
+    position: absolute;
+    top: -30px;
+    
+
+}

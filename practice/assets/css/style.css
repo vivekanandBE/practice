@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+section{
+    background: url(../images/nature.jpeg) no-repeat center;
+    background-size: 100%;
+    height: fit-content;
+    padding: 0 20px 20px 20px;
+}
+
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    
+}
+header>nav>ul>li a{
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+header>nav>ul>li a:hover{
+    background-color: white;
+    color: blue;
+    padding: 15px;
+}
+.a1{
+    display: flex;
+}
+.item{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 550px;
+    margin:0 20px;
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px black;
+}
+.item:hover{
+    background-color: rgba(240, 248, 255, 0.39);
+    color: blue;
+   
+}
+.item1{
+    background-color: rgba(255, 166, 0, 0.752);
+    width: 300px;
+    height: 255px;
+    border-radius: 0 0 60% 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+center{
+    padding: 20px;
+    color: black;
+}
+p{
+    text-align: center;
+    padding: 10px;
+}
+button{
+    background-color: rgba(255, 166, 0, 0.752);
+    padding: 10px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: blue;
+    color: aqua;
+}
